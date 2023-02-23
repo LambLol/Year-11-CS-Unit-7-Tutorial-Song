@@ -23,11 +23,11 @@ public class SongTester {
 
     @Test
     public void TestHowManyMethod() {
-        assertEquals(5, song.howMany(new ArrayList<String>(Arrays.asList("Jonathan", "Sylvia", "Rena", "Teri", "Ann Ling"))));
-        assertEquals(2, song.howMany(new ArrayList<String>(Arrays.asList("JoNathan", "Renita", "Amanda"))));
-        assertEquals(1, song.howMany(new ArrayList<String>(Arrays.asList("AmAnda", "RENITA", "AmandA", "Athan"))));
-        assertEquals(3, song.howMany(new ArrayList<String>(Arrays.asList("TERI", "RENA", "rena", "Cherry", "Vanessa", "Natalie"))));
-        assertEquals(1, song.howMany(new ArrayList<String>(Arrays.asList("Sherry", "SherRY"))));
+        assertEquals(5, Song.howMany(new ArrayList<String>(Arrays.asList("Jonathan", "Sylvia", "Rena", "Teri", "Ann Ling"))));
+        assertEquals(2, Song.howMany(new ArrayList<String>(Arrays.asList("JoNathan", "Renita", "Amanda"))));
+        assertEquals(1, Song.howMany(new ArrayList<String>(Arrays.asList("AmAnda", "RENITA", "AmandA", "Athan"))));
+        assertEquals(3, Song.howMany(new ArrayList<String>(Arrays.asList("TERI", "RENA", "rena", "Cherry", "Vanessa", "Natalie"))));
+        assertEquals(1, Song.howMany(new ArrayList<String>(Arrays.asList("Sherry", "SherRY"))));
     }
 
 }
